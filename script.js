@@ -11,7 +11,7 @@ map.on('load', () => {
  
     map.addSource('canada-provterr', {
         type: 'geojson',
-        data: 'https://raw.githubusercontent.com/smith-lg/webmap-demo/main/data/can-provterr.geojson', //Link to raw github files when in development stage. Update to pages on deployment
+        data: 'https://raw.githubusercontent.com/smith-lg/webmap-demo/refs/heads/main/data/can-provterr.geojson', //Link to raw github files when in development stage. Update to pages on deployment
         'generateId': true //Create a unique ID for each feature
     });
  
